@@ -8,6 +8,7 @@
 <script type="text/javascript" src="/smaven2/jQuery-2.2.2.js"></script>
 </head>
 <body>
+<h1>helloworld</h1>
    <h1>进来了</h1>
    <input type="text"/>
    <button type="button">点击连接</button>
