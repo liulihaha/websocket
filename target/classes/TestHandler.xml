@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="one">
+	<resultMap type="good.bean.UserBean" id="usermap">
+         <id property="id" column="u_id"/>
+         <result property="name" column="u_name"/>
+         <result property="pass" column="u_pass"/>
+     </resultMap>
+    <select id="findById" resultMap="usermap">
+         select * from user where u_id = 1 ;
+    </select>
+</mapper>
